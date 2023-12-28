@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    padding-top: 211px;
+}
+
+.name {
+    padding-top: 50%;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    background: #4169e1;
+    border-color: #4169e1;
+    border-radius: 100px;
+    width: 11% auto;
+    height: 8%;
+    
+}
+
+.name:hover {
+    transform: scale(1.1);
+    margin-left: 8px;
+    box-shadow: 0 0 7px #4169e1;
+    transition: 0.5s;    
+}
+
+
+.about {
+    padding: 0;
+    padding-top: 3%;
+    padding-right: 5%;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    text-align: center;
+    width: auto;
+
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Gilroy";
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.user-ava {
+    border-radius: 100px; 
+    margin-right: 10px;
+}
+
+.user-ava:hover {
+    box-shadow: 0 0 7px #4169e1;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.lua {
+    border-radius: 100px;
+    color: pink;
+    opacity: 0.5; 
+}
+
+.lua:hover {
+    border-radius: 110px;
+    opacity: 1.1;
+    transform: rotate3d(1, 6.0, 5.0, 30deg);
+    transition: 1s;
+}
+
+.ts {
+    border-radius: 100px;
+    color: pink;
+    opacity: 0.5; 
+}
+
+.ts:hover {
+    border-radius: 110px;
+    opacity: 1.1;
+    transform: rotate3d(1, 6.0, 5.0, -30deg);
+    transition: 1s;
+}
+
+.social-group {
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+    opacity: 1.0;
+}
+
+.img-l {
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.img-l:hover {
+    opacity: 1.0;
+    transform: rotate(2.0turn);
+    margin: 0;
+    transition: 1s;
+}
+
+.img-l:active {
+    transform: scale(2.0);
+    transition: 0.5s;
+}
+
+.skills {
+    justify-content: center;
+    display: flex;
+}
